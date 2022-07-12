@@ -1,0 +1,70 @@
+/* Exportnado fondos */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color: fuchsia;
+    background-repeat: no-repeat;
+    background-image: 
+    url('./img/png-clipart-star-black-and-white-star-angle-white.png'),
+    url('./img/png-clipart-star-black-and-white-star-angle-white.png'),
+    url('./img/png-clipart-star-black-and-white-star-angle-white.png'),
+    url('./img/png-clipart-star-black-and-white-star-angle-white.png'),
+    url('./img/png-clipart-star-black-and-white-star-angle-white.png');
+    background-position: 
+    top left, 
+    bottom left,
+    center center,
+    top right,
+    bottom right;
+    background-repeat:
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat,
+    no-repeat;
+}
+
+div.circle {
+    /* background-color: red; */
+    margin: 16px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+
+div.circle span {
+    color: white;
+    font-size: 64px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+body div.uno {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+body div.dos {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+body div.tres {
+    background-color: rgba(0, 0, 255, 1);
+}
+
+body div.cuatro {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+body div.cinco {
+    background-color: rgba(255, 0, 0, 0.4);
+}
